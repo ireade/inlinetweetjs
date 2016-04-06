@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>InlineTweet.js</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Source+Code+Pro' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+
+		<section>
+		
+		<h1>InlineTweet.js</h1>
+
+		<p class="about"><span data-inline-tweet data-inline-tweet-via="ireaderinokun">Easily create inline tweetable quotes</span> within any webpage.</p>
+
+
+		<p>Lorem Khaled Ipsum is a major key to success. To be successful you’ve got to work hard, <span data-inline-tweet data-inline-tweet-via="bitsofcode" data-inline-tweet-url="http://bitsofco.de">to make history, simple, you’ve got to make it.</span> How’s business? Boomin.</p>
+
+		<br>
+		<iframe src="https://ghbtns.com/github-btn.html?user=ireade&repo=caniuse-embed&type=star&count=false" frameborder="0" scrolling="0" width="60px" height="20px"></iframe>
+
+		
+		</section>
+
+		
+		<section class="site-section" id="how-to-use">
+			<h2>How To Use</h2>
+
+			<section>
+			<h3>1 - Include Script</h3>
+
+			<p><a href="">Download the file from here</a> and include it in your webpage.</p>
+
+<div class="highlight cf">
+<pre id="stepOne">&lt;script src="path/to/inline-tweet.min.js"&gt;&lt;/script&gt;</pre>
+</div>
+			</section>
+
+
+			<section>
+
+			<h3>2 - Wrap Text</h3>
+
+			<p>Wrap the tweetable text in a container element of your choice (<code>span</code> recommended) with the data attribute, <code>data-inline-tweet</code></p>
+
+<pre>&lt;span data-inline-tweet&gt;Lorem Khaled Ipsum is a major key to success&lt;/span&gt;</pre>
+
+				
+			</section>
+
+
+			<section>
+
+			<h3>3 - Additional Options</h3>
+
+			<p>You can add more data attributes to cutomise the tweeted output -</p>
+			<ul class="ul">
+				<li><code>data-inline-tweet-via</code> — Add a twitter username (without the @) to append to the tweet </li>
+				<li><code>data-inline-tweet-url</code> — Tweet a URL different to the current page url</li>
+			</ul>
+
+<pre>&lt;span data-inline-tweet
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-inline-tweet-via="ireaderinokun"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-inline-tweet-url="bitsofco.de"&gt;
+&nbsp;&nbsp;Lorem Khaled Ipsum is a major key to success
+&lt;/span&gt;</pre>
+				
+			</section>
+
+
+			<section>
+
+			<h3>4 - Add Style</h3>
+
+			<p>Add the following styles to your stylesheet -</p>
+
+
+<div class="highlight cf">
+<pre id="stepOne">[data-inline-tweet] a {
+&nbsp;&nbsp;text-decoration: none;
+&nbsp;&nbsp;color: #000;
+}
+[data-inline-tweet] a span {
+&nbsp;&nbsp;border-bottom: 1px dotted rgb(0,172,237);
+&nbsp;&nbsp;font-style: italic;
+&nbsp;&nbsp;display: inline-block;
+&nbsp;&nbsp;margin-right: 10px;
+}
+[data-inline-tweet] a:hover span {
+&nbsp;&nbsp;background-color: rgba(0,172,237,0.1);
+&nbsp;&nbsp;color: rgb(0,172,237);
+}</pre>
+</div>
+				
+			</section>
+
+
+		</section>
+
+
+		<p>Made with <i class="twa twa-heart"></i> by <a href="https://twitter.com/ireaderinokun" target="_blank">@IreAderinokun</a></p>
+
+	</div>
+
+
+
+
+	<script src="inline-tweet.min.js"></script>
+</body>
+</html>

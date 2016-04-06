@@ -1,0 +1,229 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Box sizing */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+/* ---------------*/
+
+
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(50, 50, 50);
+
+}
+a {
+    color: inherit; 
+}
+
+small {
+	font-size: 1rem;
+	display: block;
+	text-align: right;
+}
+strong {
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 4rem;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+
+
+
+p.about {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+
+h3 {
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.uo {
+	color: rgb(180, 180, 180);
+}
+
+
+.ul {
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 20px;
+
+}
+
+.ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.container {
+	margin: 100px auto;
+	width: 90%;
+	max-width: 800px;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		margin: 50px auto;
+	}
+}
+
+
+
+section.site-section {
+	margin-bottom: 50px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(220, 220, 220);
+}
+section:not(.site-section) {
+	margin-bottom: 40px;
+}
+
+.highlight {
+	margin-bottom: 15px;
+}
+
+pre {
+	background-color: rgb(220, 220, 220);
+	padding: 10px;
+	display: block;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.2rem;
+	color: #000;
+	
+	white-space: pre-line;
+	word-wrap: break-word;
+	position: relative;
+}
+
+code {
+	background-color: rgb(220, 220, 220);
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.2rem;
+	color: #000;
+	padding: 2px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Twemoji Awesome - http://ellekasai.github.io/twemoji-awesome/ */
+ .twa {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1em 1em; }
+
+.twa-heart {
+  background-image: url("https://twemoji.maxcdn.com/svg/2764.svg"); 
+}
+
+
+
+
+
+
+
+
+[data-inline-tweet] a {
+	text-decoration: none;
+	color: #000;
+}
+[data-inline-tweet] a span {
+	border-bottom: 1px dotted rgb(0,172,237);
+	font-style: italic;
+	margin-right: 8px;
+}
+[data-inline-tweet] a:hover span {
+	background-color: rgba(0,172,237, 0.1);
+	color: rgb(0,172,237);
+}
+
+
+
+
+

@@ -2,6 +2,8 @@
 
 ![InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. Just wrap the tweetable text in a container with data-inline-tweet and you're good to go!](screenshot.png)
 
+[SEE DEMO](http://ireade.github.io/inlinetweetjs/)
+
 
 ## How to Use
 

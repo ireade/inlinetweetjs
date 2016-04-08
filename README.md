@@ -32,11 +32,13 @@ Wrap the tweetable text in a container element of your choice (`span` recommende
 You can add more data attributes to cutomise the tweeted output -
 
 - `data-inline-tweet-via` — Add a twitter username (without the @) to append to the tweet
+- `data-inline-tweet-tags` - Add hashtags to the tweet (comma-separated, no spaces)
 - `data-inline-tweet-url` — Tweet a URL different to the current page url
 
 ```html
 <span data-inline-tweet       
-	  data-inline-tweet-via="ireaderinokun"       
+	  data-inline-tweet-via="ireaderinokun"   
+	  data-inline-tweet-tags="webdesign,webdev,js,yolo"    
 	  data-inline-tweet-url="bitsofco.de">   
 	Lorem Khaled Ipsum is a major key to success 
 </span>

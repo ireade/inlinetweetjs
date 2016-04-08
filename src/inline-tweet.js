@@ -16,19 +16,19 @@ if ( inlineTweets ) {
 		var tweetTextEncoded = "%22" + encodeURIComponent(tweetText) + "%22";
 		var pageURL = inlineTweet.dataset.inlineTweetUrl ? inlineTweet.dataset.inlineTweetUrl : window.location.href;
 		var tweetVia = inlineTweet.dataset.inlineTweetVia ? "&via="+inlineTweet.dataset.inlineTweetVia : "";
-		var tweetLink = "https://twitter.com/intent/tweet/?text="+tweetTextEncoded+"&url="+pageURL+tweetVia;
+		var tweetHashtags = inlineTweet.dataset.inlineTweetTags ? "&hashtags="+inlineTweet.dataset.inlineTweetTags : "";
+		var tweetLink = "https://twitter.com/intent/tweet/?text="+tweetTextEncoded+"&url="+pageURL+tweetVia+tweetHashtags;
 
 
-
-		var link = document.createElement('a');
-		link.target = "_blank";
-		link.href = tweetLink;
-
-
+		// SPAN ELEMENT
 		var tweetTextContainer = document.createElement('span');
 		tweetTextContainer.innerHTML = tweetText;
 
 
+		// ANCHOR ELEMENT
+		var link = document.createElement('a');
+		link.target = "_blank";
+		link.href = tweetLink;
 		link.appendChild(tweetTextContainer);
 		link.innerHTML += twitterLogo;
 

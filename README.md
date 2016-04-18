@@ -4,6 +4,8 @@
 
 [SEE DEMO](http://ireade.github.io/inlinetweetjs/)
 
+Want to use this in Wordpress? [Check out this plugin](https://github.com/ireade/wp-inlinetweetjs/)
+
 
 ## How to Use
 
